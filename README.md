@@ -211,14 +211,7 @@ export const useCart = () => {
 - **Inspiración**: Amazon, Shopify, apps modernas
 
 
-
-## 📱 Responsive Design
-
-
-## 🚀 Posibles Mejoras Futuras
-
-
-## 👨‍💻 Desarrollado por Alejandro Ortiz Trejos
+# 👨‍💻 Desarrollado por Alejandro Ortiz Trejos
 
 Este proyecto fue desarrollado como tarea universitaria del curso de React + Ruby On Rails de la Universidad Cenfotec.
 
