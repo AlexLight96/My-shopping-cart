@@ -215,6 +215,12 @@ export const useCart = () => {
 
 Este proyecto fue desarrollado como tarea universitaria del curso de React + Ruby On Rails de la Universidad Cenfotec.
 
+
+## 📋 Documentación del Proyecto
+
+- **📄 [Enunciado del Proyecto](./docs/TareaSemana3.pdf)** - Requerimientos y especificaciones originales
+
+
 ---
 
 ¡Gracias por revisar este proyecto! 🎉
