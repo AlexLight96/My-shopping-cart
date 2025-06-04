@@ -1,0 +1,1 @@
+export type TypeActionCart = 'ADD_ITEM' | 'REMOVE_ITEM' | 'UPDATE_QUANTITY';
