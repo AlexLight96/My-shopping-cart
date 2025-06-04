@@ -15,6 +15,7 @@ Una aplicación moderna de carrito de compras construida con **React + TypeScrip
 ### Prerrequisitos
 - **Node.js** (versión 16 o superior)
 - **Bun** (recomendado) o **npm** o **yarn**
+- Sino tienes Bun instalado navega a la documentacion oficial para la instalacion: https://bun.sh/docs/installation
 
 ### Instalación y Ejecución
 
