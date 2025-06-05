@@ -7,17 +7,17 @@ interface ProductCardProps {
 
 export const ProductCard = ({product, onAddToCart}: ProductCardProps) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-200 h-full flex flex-col">
       <img src={product.image} alt={product.name} className="w-full h-64 object-contain rounded-md bg-gray-50" />
-      <div className="p-4">
+      <div className="p-4 flex flex-col flex-grow">
         <h2 className="text-xl font-bold text-gray-800 mb-2">{product.name}</h2>
         <p className="text-2xl font-semibold text-green-600 mb-2">${product.price}</p>
-        <p className="text-gray-600 text-sm mb-4">{product.description}</p>
+        <p className="text-gray-600 text-sm mb-4 flex-grow">{product.description}</p>
         <button 
           onClick={() => onAddToCart(product)}
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200"
+          className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200 mt-auto"
         >
-          Add {product.name} to Cart
+          Agregar al Carrito
         </button>
       </div>
     </div>

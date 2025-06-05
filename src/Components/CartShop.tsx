@@ -26,8 +26,8 @@ if (!isOpen) return null
             </svg>
           </div>
           <div>
-            <h3 className="font-semibold text-gray-900">Shopping Cart</h3>
-            <p className="text-xs text-gray-500">{items.length} items</p>
+            <h3 className="font-semibold text-gray-900">Carrito de Compras</h3>
+            <p className="text-xs text-gray-500">{items.length} artículos</p>
           </div>
         </div>
         <button 
@@ -48,8 +48,8 @@ if (!isOpen) return null
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l-1 12H6L5 9z" />
             </svg>
           </div>
-          <p className="text-gray-500 text-sm">Your cart is empty</p>
-          <p className="text-xs text-gray-400 mt-1">Add some products to get started!</p>
+          <p className="text-gray-500 text-sm">Tu carrito está vacío</p>
+          <p className="text-xs text-gray-400 mt-1">¡Agrega algunos productos para comenzar!</p>
         </div>
       ) : (
         <>
@@ -94,7 +94,7 @@ if (!isOpen) return null
                         onClick={() => handleRemoveFromCart(item.product)}
                         className="text-xs text-red-500 hover:text-red-700 hover:underline transition-colors"
                       >
-                        Remove
+                        Eliminar
                       </button>
                     </div>
                   </div>
@@ -109,9 +109,6 @@ if (!isOpen) return null
               <span className="text-lg font-semibold text-gray-900">Total</span>
               <span className="text-xl font-bold text-gray-900">${total.toFixed(2)}</span>
             </div>
-            <button className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-2.5 rounded-lg font-medium hover:shadow-lg hover:scale-[1.02] transition-all duration-200">
-              Checkout ({items.length} items)
-            </button>
           </div>
         </>
       )}

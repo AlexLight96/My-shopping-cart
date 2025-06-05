@@ -36,7 +36,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              My Shopping App
+              Mi Aplicación de Compras
             </h1>
             
             {/* Cart Button */}
@@ -47,7 +47,7 @@ function App() {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 6M7 13l-1.5-6m0 0h15M6 13v8a2 2 0 002 2h8a2 2 0 002-2v-8" />
               </svg>
-              <span className="font-medium">Cart</span>
+              <span className="font-medium">Carrito</span>
               {totalItems > 0 && (
                 <span className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full text-xs w-6 h-6 flex items-center justify-center font-semibold animate-pulse">
                   {totalItems}
